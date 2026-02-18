@@ -1,9 +1,9 @@
 {
   "name": "@scedel/validator",
   "version": "0.1.0",
-  "description": "JSON validator for SCEDel schema repositories (JS/TS)",
+  "description": "JSON validator for Scedel schema repositories (JS/TS)",
   "license": "MIT",
-  "author": "SCEDel contributors",
+  "author": "Scedel contributors",
   "keywords": [
     "scedel",
     "schema",
