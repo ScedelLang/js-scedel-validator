@@ -1,0 +1,28 @@
+{
+  "name": "@scedel/validator",
+  "version": "0.1.0",
+  "description": "JSON validator for SCEDel schema repositories (JS/TS)",
+  "license": "MIT",
+  "author": "SCEDel contributors",
+  "keywords": [
+    "scedel",
+    "schema",
+    "validation",
+    "json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "scedel-validate-json": "./bin/validate-json.mjs"
+  },
+  "scripts": {
+    "validate-json": "node ./bin/validate-json.mjs",
+    "test": "node --test ./tests/*.test.js"
+  }
+}
